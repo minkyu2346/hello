@@ -20,10 +20,11 @@ for i in range(10):
         dr="오른쪽"
 
     if where ==dap :
-        print("{}번으로 점프".format(i+1))
+        print("{}번으로 전진".format(i+1))
         print("{}으로 점프".format(dr))
         print("{}칸 남았습니다".format(9-i))
     else:
+        print("{}번으로 전진".format(i+1))
         print("{}으로 점프".format(dr))
         print("으아아아악~")
         break 
