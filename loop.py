@@ -8,8 +8,15 @@ print("홀짝 게임을 시작합니다")
 while i<2:
     a= random.randint(1,10)
     print("당신의 구슬의 갯수: {}개".format(marble))
-    bet= input("구슬 몇개 배팅? (잘못 입력하면 한번은 기회 줄게)")
-    if int(bet)>marble:
+    try:
+
+        bet= int(input("구슬 몇개 배팅? (잘못 입력하면 한번은 기회 줄게)"))
+    except: 
+        print("숫자만 입력해라 ") 
+        i=i+1
+        continue
+
+    if bet>marble:
         i=i+1 
         print("배팅갯수 초과 다시 입력 ")
         continue
