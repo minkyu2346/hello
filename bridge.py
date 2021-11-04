@@ -13,17 +13,18 @@ for i in range(10):
     print(dap)
 #내가 선택에 따라 살고 죽는다
     if where== 1:
-        print("왼쪽으로 이동")
-
-    else: 
-        print("오른쪽으로 이동")
-
         
+        dr="왼쪽"
+    else: 
+        
+        dr="오른쪽"
+
     if where ==dap :
         print("{}번으로 점프".format(i+1))
-        
+        print("{}으로 점프".format(dr))
         print("{}칸 남았습니다".format(9-i))
     else:
+        print("{}으로 점프".format(dr))
         print("으아아아악~")
         break 
 
