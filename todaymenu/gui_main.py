@@ -23,11 +23,11 @@ btn1.pack()
 label1=Label(root,text="오늘의 메뉴는 {}입니다".format(newmenu.food))
 label1.pack()
 
-img = {"라면":ImageTk.PhotoImage(file=r'C:\Users\USER\hello\hello\ra.Png'),
-        "돈까스":ImageTk.PhotoImage(file=r'C:\Users\USER\hello\hello\don.Png'),
-        "김밥":ImageTk.PhotoImage(file=r'C:\Users\USER\hello\hello\gim.Png'),
-        "짜장면":ImageTk.PhotoImage(file=r'C:\Users\USER\hello\hello\ja.Png'),
-        "짬뽕":ImageTk.PhotoImage(file=r'C:\Users\USER\hello\hello\jam.Png')}
+img = {"라면":ImageTk.PhotoImage(file=r'C:\Users\USER\hello\hello\todaymenu\ra.Png'),
+        "돈까스":ImageTk.PhotoImage(file=r'C:\Users\USER\hello\hello\todaymenu\don.Png'),
+        "김밥":ImageTk.PhotoImage(file=r'C:\Users\USER\hello\hello\todaymenu\gim.Png'),
+        "짜장면":ImageTk.PhotoImage(file=r'C:\Users\USER\hello\hello\todaymenu\ja.Png'),
+        "짬뽕":ImageTk.PhotoImage(file=r'C:\Users\USER\hello\hello\todaymenu\jam.Png')}
 
 
 
